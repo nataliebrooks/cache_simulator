@@ -1,0 +1,16 @@
+Compile your code:
+    linux> make clean && make
+
+Check the functionality of simulator:
+    linux> ./test-csim
+
+******
+Files:
+******
+
+csim.c       Cache simulator
+Makefile     Builds the simulator
+README       This file
+csim-ref     The executable reference cache simulator
+test-csim    Tests cache simulator
+traces/      Trace files used by test-csim
